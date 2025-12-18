@@ -1,7 +1,14 @@
-import math
+from PIL import Image
+import numpy as np
 
-def compute_next_coordinate(q, r, hex_size=50):
-    """Compute pixel coordinates for a hexagon in axial coordinates (q,r)."""
-    x = hex_size * 3/2 * q
-    y = hex_size * math.sqrt(3) * (r + q/2)
-    return (x, y)
+class WallpaperGenerator:
+    def __init__(self, input_path, hex_grid):
+        self.input_path = input_path
+        self.hex_grid = hex_grid
+        # TODO: Load image here
+    
+    def sample_color(self, cx, cy):
+        """
+        Return average RGB color for the area around cx, cy.
+        """
+        pass
