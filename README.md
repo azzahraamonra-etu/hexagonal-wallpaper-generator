@@ -3,8 +3,7 @@
 Transform any PNG into a geometric, hexagonal masterpiece.
 
 ## Examples
-![Hex Wallpaper Example](.src\hexwallpaper/wallpapers/input.png)
-
+![Hex Wallpaper Example](./src/hexwallpaper/wallpapers/input.png)
 ## How to Use
 1. **Install dependencies:** `pip install Pillow`
 2. **Run the script:** `python generate.py --input my_image.png --size 50`
